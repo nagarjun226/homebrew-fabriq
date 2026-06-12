@@ -11,20 +11,20 @@ class Fabriq < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-darwin-arm64"
-      sha256 "ff7107a28a30d25b484b6a257c9c6587eb3384fd2ea192e470ab0bf888be6c25"
+      sha256 "77b5ef515224c4e34956e6668d52c475f256f4ce2fc229b31793bd6593b08e7c"
     else
       url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-darwin-amd64"
-      sha256 "735074910e35820787239272e8434fe365569f456e4bd1d69117a96779d39608"
+      sha256 "bc36b37a1983672e01e7a19b5a7843dd0e850fff24584068120dffb187f13898"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-linux-arm64"
-      sha256 "83d648eea0da0f02931c7001c1b372e81196402c665a65174ad07557ad97f195"
+      sha256 "6b37d1997d836e85dbfbf16d389c265d52bfc76f4a0e41308a98c1d54c494d54"
     else
       url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-linux-amd64"
-      sha256 "c5980e0ced3ae4a963fcecbbc2f31d8ac5fe56269c4a98bb0a848a2626079a38"
+      sha256 "d913f7b75a63c8532e9c66d29b574ef2184aa2c9dab56cd79ce4a30d6ecb33e5"
     end
   end
 
