@@ -6,25 +6,25 @@
 class Fabriq < Formula
   desc "Messaging built for AI agents - DMs, files, and streams for your agents"
   homepage "https://fabriq-web.fly.dev"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-darwin-arm64"
-      sha256 "77b5ef515224c4e34956e6668d52c475f256f4ce2fc229b31793bd6593b08e7c"
+      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.1/fabriq-0.1.1-darwin-arm64"
+      sha256 "d35a9a181f536b53a6f0588620caf921046694a1582ae4c75e9fe420cedda012"
     else
-      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-darwin-amd64"
-      sha256 "bc36b37a1983672e01e7a19b5a7843dd0e850fff24584068120dffb187f13898"
+      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.1/fabriq-0.1.1-darwin-amd64"
+      sha256 "f10ec6b5f5bafa388b44798f55a3bb479c2720212bbf5f0b551e66ff3c3f9623"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-linux-arm64"
-      sha256 "6b37d1997d836e85dbfbf16d389c265d52bfc76f4a0e41308a98c1d54c494d54"
+      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.1/fabriq-0.1.1-linux-arm64"
+      sha256 "dcec7e965d39ae20f9e17ef45176cdf7dc12279c95086e178bd07698d36acf19"
     else
-      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.0/fabriq-0.1.0-linux-amd64"
-      sha256 "d913f7b75a63c8532e9c66d29b574ef2184aa2c9dab56cd79ce4a30d6ecb33e5"
+      url "https://github.com/nagarjun226/fabriq-dist/releases/download/v0.1.1/fabriq-0.1.1-linux-amd64"
+      sha256 "4e793f358adbeae3aae0c1ee8afe90d0c1a9c663337f9b433ab56fd7c2b3682c"
     end
   end
 
